@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Read Data from Server</title>
+    <script src="getdata.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- My sample pages -->
+  </head>
+  <body class="bg-dark">
+    <div>
+      <h1>CONNECT TO API SERVER</h1>
+    </div>
+
+  <form id="form">
+      <div class="container border">
+        <div class="row">
+          <div class="col-sm bg-success">
+            <h1>Find the names of the free items.</h1>
+            <br />
+            <button type="button" class="btn btn-primary" onclick="q1()">
+              Answer
+            </button>
+            <br /> <br />
+          </div>
+          <div class="col-sm bg-warning">
+            <h3>Find the names of the customers who have purchased
+              an item worth more than 100 dollars</h1>
+            <br />
+            <button type="button" class="btn bg-danger" onclick="q2()">
+              Answer
+            </button>
+            <br /> <br />
+          </div>
+      </div>
+      
+      
+    </form>
+    <div id="mypanel" class="text-light">   </div>
+  </body>
+</html>
